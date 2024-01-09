@@ -3,36 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preload" href="styles/normalize.css" as="style">
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;700&display=swap" rel="stylesheet">
+    
     <link rel="preload" href="styles/style.css" as="style">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/style.css">
+    
     <title>Proyecto1</title>
 </head>
 
 <body>
 
   <header>
-    <h1>Dhanielt Rubio <Span>Freelancer</Span></h1>
+    <h1 class="titulo">Dhanielt Rubio <Span>Freelancer</Span></h1>
   </header>
+  <div class="navBg">
+    <nav class="navegacionPrincipal contenedor">
+      <a href="#">Inicio</a>
+      <a href="#">Nosotros</a>
+      <a href="#">Clientes</a>
+      <a href="#">Cotactos</a>
+    </nav>
+  </div>
+  
 
-  <nav>
-    <a href="#">Inicio</a>
-    <a href="#">Nosotros</a>
-    <a href="#">Clientes</a>
-    <a href="#">Cotactos</a>
-  </nav>
-
-  <section>
-    <h2>Diseño y Desarrollo Freelancer</h2>
-    <p>Villavicencio/Meta</p>
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
-      <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-    </svg>
-    <a href="#">Contactar</a>
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Diseño y Desarrollo Freelancer</h2>
+      
+      <div class="ubicacion">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+          <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+        </svg>
+        <p>Villavicencio/Meta</p>
+      </div>
+      
+      <a class="boton" href="#">Contactar</a>
+    </div>
   </section>
 
-  <main>
+  <main class="sombras contenedor">
 
     <h2>Mis Servicios</h2>  
     

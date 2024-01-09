@@ -1,1 +1,5 @@
 recursos para iconos Tabler icons
+normalize para que en todos los navegadores se mire parecido
+family font de google para las fuentes
+https://caniuse.com/ para saber que tanto soporte tiene una etiqueta css
+https://www.cssmatic.com/box-shadow para hacer cajas con sombra
