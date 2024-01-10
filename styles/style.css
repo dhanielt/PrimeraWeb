@@ -50,7 +50,7 @@ body{
     width: 90%;
     border: none;
 }
-@media (min-width: 400px) {
+@media (min-width: 500px) {
     .boton{
         width: auto;
     }
@@ -88,7 +88,7 @@ h1, h2, h3{
 .width100{
     width: 100%;
 }
-@media (min-width: 400px) {
+@media (min-width: 500px) {
     .width100{
         width: auto;
     }
@@ -103,7 +103,7 @@ h1, h2, h3{
     flex-direction: column;
     align-items: center;
 }
-@media (min-width: 400px) {
+@media (min-width: 500px) {
     .navegacionPrincipal{
         flex-direction: row;
         justify-content: space-around;
@@ -118,7 +118,7 @@ h1, h2, h3{
     width: 100%;
     text-align: center;
 }
-@media (min-width: 400px) {
+@media (min-width: 500px) {
     .navegacionPrincipal a{
         width: auto;
     }
